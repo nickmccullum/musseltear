@@ -47,10 +47,12 @@ export default function Home() {
             <p className="mt-48 text-xl">
               Prince Edward Island's first ultra-endurance cycling race
             </p>
-            <Button className="mt-8 bg-red-700 hover:bg-red-800">
-              Register Now
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKmuqfYM1VoWxSGpRN8ki75qZbezTKQVZp_a6ToLU7zF07Mw/viewform?usp=preview">
+              <Button className="mt-8 bg-red-700 hover:bg-red-800">
+                Register Now
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </a>
           </div>
         </section>
 
@@ -158,8 +160,10 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col justify-center space-y-4">
-                <Button className="bg-red-700 hover:bg-red-800" disabled>
-                  Click here to register (coming soon!)
+                <Button className="bg-red-700 hover:bg-red-800">
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeKmuqfYM1VoWxSGpRN8ki75qZbezTKQVZp_a6ToLU7zF07Mw/viewform?usp=preview">
+                    Click here to register
+                  </Link>
                 </Button>
                 <Button asChild variant="outline">
                   <Link
