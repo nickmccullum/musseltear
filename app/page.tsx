@@ -102,9 +102,9 @@ export default function Home() {
                   <Calendar className="h-12 w-12 text-red-700" />
                   <h3 className="mt-4 text-xl font-bold">Date</h3>
                   <p className="mt-2 text-center">
-                    Start: August 30th @ 10:00am
+                    Start: August 30th @ 9:00am
                     <br />
-                    Cut off time: August 31st @ 4:00pm
+                    Cut off time: August 31st @ 7:00pm
                   </p>
                 </CardContent>
               </Card>
@@ -119,7 +119,7 @@ export default function Home() {
                 <CardContent className="flex flex-col items-center p-6">
                   <Clock className="h-12 w-12 text-red-700" />
                   <h3 className="mt-4 text-xl font-bold">Time Limit</h3>
-                  <p className="mt-2 text-center">30 hours</p>
+                  <p className="mt-2 text-center">34 hours</p>
                 </CardContent>
               </Card>
               <Card>
