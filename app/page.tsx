@@ -261,6 +261,60 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className="bg-white py-16">
+          <div className="container">
+            <h2 className="text-3xl font-bold tracking-tight">Our Sponsors</h2>
+            <Separator className="my-6 bg-red-700" />
+            <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/images/Screenshot 2025-06-05 at 12.47.47 PM.png"
+                  alt="Sponsor 1"
+                  width={200}
+                  height={100}
+                  className="object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/images/download-1.png"
+                  alt="Sponsor 2"
+                  width={200}
+                  height={100}
+                  className="object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/images/Screenshot 2025-06-02 at 8.39.02 AM.png"
+                  alt="Sponsor 3"
+                  width={200}
+                  height={100}
+                  className="object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/images/Thule.png"
+                  alt="Thule"
+                  width={200}
+                  height={100}
+                  className="object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/images/AZgBcQvE_400x400_1092c022-a6f8-4cc3-b434-69e53812a036.webp"
+                  alt="Sponsor 5"
+                  width={200}
+                  height={100}
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer className="border-t bg-red-900 py-8 text-white">
