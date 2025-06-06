@@ -157,7 +157,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Tracking Fees: $40+ (see details below)</span>
+                    <span>Tracking Fees: $30+ USD (see details below)</span>
                   </li>
                 </ul>
                 <p className="mt-4 text-sm italic">
