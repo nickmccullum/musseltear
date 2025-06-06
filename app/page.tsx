@@ -81,6 +81,13 @@ export default function Home() {
               </p>
               <br />
               <p> Are you up for the challenge?</p>
+              <br />
+              <p>
+                The PEI Mussel Tear is a Cycling PEI-sanction event. This means
+                that members of Cycling PEI participating in the event will
+                enjoy the sport accident and liability insurance coverage that
+                comes with their membership.
+              </p>
             </div>
           </div>
         </section>
@@ -156,9 +163,9 @@ export default function Home() {
                 <p className="mt-4 text-sm italic">
                   *For those entering the pairs category, please register
                   individually and indicate the name of your teammate on the
-                  registration portal.
                 </p>
               </div>
+              w
               <div className="flex flex-col justify-center space-y-4">
                 <Button className="bg-red-700 hover:bg-red-800">
                   <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeKmuqfYM1VoWxSGpRN8ki75qZbezTKQVZp_a6ToLU7zF07Mw/viewform?usp=preview">
